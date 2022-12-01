@@ -15,6 +15,7 @@ function App() {
     })  
   }
   return (
+ 
     <div className="App">
     <div id='head'>
     <h1>React Photo Search </h1>
@@ -28,14 +29,16 @@ function App() {
      }} placeholder='search for high resolution images'/>
      <button type='submit' onClick={changeImages} id='search'>Search</button>
      </div>
-     <div>
+     <div id='images'>
       {result.map((value)=>{
-        return <div>
-          <img src={value.urls.small}/>
+        return <div >
+          <img id="img" src={value.urls.small}/>
         </div>
       })}
      </div>
     </div>
+    
+   
   );
 }
 

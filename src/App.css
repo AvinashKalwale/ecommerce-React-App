@@ -39,6 +39,21 @@ border-radius: 5%;
   border-radius: 25%;
 }
 
-img{
+ #images{
+  float: left;
+  width: 100%;
+  /* margin-left: 32%; */
+  margin-top: 10px;
+  /* grid-template-columns: repeat(3, 1fr) */
+} 
 
-}
+#img{
+  /* content: "";
+  display: table;
+  clear: both; */
+  /* grid-template-columns: repeat(3, 1fr) */
+  float: left;
+  width: 33.10%;
+  /* margin-right: 2px; */
+  margin-left: 2px;
+ }
