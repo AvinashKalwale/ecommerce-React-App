@@ -4,14 +4,14 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <div>
+    <div id='head'>
     <h1>React Photo Search </h1>
-    <button>Bookmark</button>
+    <button id='bm'><h3>Bookmarks</h3></button>
     </div>
      
      <div>
      <input placeholder='search for high resolution images'/>
-     <button>Search</button>
+     <button id='search'>Search</button>
      </div>
     </div>
   );
